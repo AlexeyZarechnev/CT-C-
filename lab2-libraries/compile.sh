@@ -1,0 +1,1 @@
+clang main.c -o lab2 src/vector.c src/decoder.c src/encoder.c src/reader.c src/cross_correlation.c -I include -I compiled-ffmpeg/include -I compiled-fftw3/include -L compiled-ffmpeg/lib -l avformat -l avcodec -l avutil -l swresample -L compiled-fftw3/lib -l fftw3 -fsanitize=address
